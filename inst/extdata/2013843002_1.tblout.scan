@@ -1,0 +1,13 @@
+#                                                                --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession     E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- --------------------  ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/asanger/data/methanogenesis/mcr/TIGR03257.1.HMM
+# Target file:     /srv/data/GEM/faa/2013843002_1.faa
+# Option settings: hmmsearch --tblout /home/asanger/db/GEM/hmmeroutput/2013843002_1.tblout.scan -T 500 /home/asanger/data/methanogenesis/mcr/TIGR03257.1.HMM /srv/data/GEM/faa/2013843002_1.faa 
+# Current dir:     /srv/data/GEM/faa
+# Date:            Sat Sep  9 12:52:57 2023
+# [ok]

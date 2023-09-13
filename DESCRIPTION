@@ -1,0 +1,19 @@
+Package: rtackhmmer
+Type: Package
+Title: Parse hmmer --tblout files to data frames, maybe
+Version: 0.1.0
+Author: Andrew D. Steen
+Maintainer: Andrew D. Steen <asteen1@utk.edu>
+Description: This packages parses hmmer --tblout files. 
+    The rhmmer package does this as well, but we couldn't get it to work for some reason. So I wrote this package to replicate the function.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    dplyr,
+    stringr

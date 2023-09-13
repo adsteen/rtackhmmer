@@ -1,0 +1,15 @@
+#                                                                              --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                      accession  query name           accession     E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#              ------------------- ---------- --------------------  ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+3300025587.a:Ga0208938_1000004_200 -          met_CoM_red_bet      TIGR03257.1  3.9e-239  790.5   8.6  4.5e-239  790.3   8.6   1.0   1   0   0   1   1   1   1 # 190597 # 191928 # -1 # ID=4_200;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.496
+3300025587.a:Ga0208938_1000004_164 -          met_CoM_red_bet      TIGR03257.1  1.6e-221  732.5   7.3  1.8e-221  732.3   7.3   1.0   1   0   0   1   1   1   1 # 159247 # 160578 # -1 # ID=4_164;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.505
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/asanger/data/methanogenesis/mcr/TIGR03257.1.HMM
+# Target file:     /srv/data/GEM/faa/3300025587_25.faa
+# Option settings: hmmsearch --tblout /home/asanger/db/GEM/hmmeroutput/3300025587_25.tblout.scan -T 500 /home/asanger/data/methanogenesis/mcr/TIGR03257.1.HMM /srv/data/GEM/faa/3300025587_25.faa 
+# Current dir:     /srv/data/GEM/faa
+# Date:            Sat Sep  9 13:27:52 2023
+# [ok]

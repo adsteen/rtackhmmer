@@ -1,0 +1,16 @@
+#                                                                           --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                   accession  query name           accession     E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#           ------------------- ---------- --------------------  ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+3300013883.a:Ga0181297_100958_5 -          met_CoM_red_bet      TIGR03257.1  1.1e-193  640.6  10.8  1.3e-193  640.4  10.8   1.0   1   0   0   1   1   1   1 # 2396 # 3700 # -1 # ID=90_5;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.584
+3300013883.a:Ga0181297_100540_3 -          met_CoM_red_bet      TIGR03257.1  4.6e-187  618.8   4.7  5.1e-187  618.7   4.7   1.0   1   0   0   1   1   1   1 # 957 # 2261 # -1 # ID=123_3;partial=00;start_type=ATG;rbs_motif=AGGA;rbs_spacer=5-10bp;gc_cont=0.568
+3300013883.a:Ga0181297_100640_3 -          met_CoM_red_bet      TIGR03257.1  5.5e-187  618.6   3.7  6.1e-187  618.4   3.7   1.0   1   0   0   1   1   1   1 # 2077 # 3381 # 1 # ID=136_3;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;gc_cont=0.608
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/asanger/data/methanogenesis/mcr/TIGR03257.1.HMM
+# Target file:     /srv/data/GEM/faa/3300013883_6.faa
+# Option settings: hmmsearch --tblout /home/asanger/db/GEM/hmmeroutput/3300013883_6.tblout.scan -T 500 /home/asanger/data/methanogenesis/mcr/TIGR03257.1.HMM /srv/data/GEM/faa/3300013883_6.faa 
+# Current dir:     /srv/data/GEM/faa
+# Date:            Sat Sep  9 13:12:51 2023
+# [ok]
